@@ -1,0 +1,86 @@
+.aboutmeText {    
+    color: darkslategray !important;
+    font: small !important;
+    line-height: 22px !important;
+    white-space: pre-line !important;
+}
+
+.section .workList {
+    margin-left: 22px !important;
+}
+
+.resumeTimeline .timelineContent .timelineTitle {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.resumeTimeline .timelineContent .timelineDate {
+    color: darkslategray;
+}
+
+.resumeTimeline .timelineContent .timelineDescription {
+    color: grey;
+    font-size: small;
+    margin-top: 6px;
+}
+
+.service {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.service .serviceTitle {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+    text-align: center;
+}
+
+.service .serviceDescription {
+    color: lightgrey;
+    border-color: var(--main-color);
+    margin-right: 5px !important;
+    text-align: center;
+}
+
+.serviceIcon > .MuiSvgIcon-root {
+    /* width: ; */
+    font-size: 40px !important;
+    margin-left: 0 !important;
+    font-weight: 300 !important;
+    color: darkslategray !important;
+}
+
+.service .material-icons {
+    width: 40px;
+    padding-bottom: 40px;
+}
+
+.skill {
+    border-radius: 8px;
+    padding: 20px !important;
+    box-shadow: 0px 0px 48px 0px rgba(7, 7, 7, 0.08) !important;
+    min-height: 186px;
+    height: 100%;
+}
+
+.skill .skillTitle {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+}
+
+.skill .skillDescription {
+    display: flex;
+    align-items: center; 
+    color: black;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.skill .skillDescription .timelineDot {
+    border-color: var(--main-color);
+    padding: 2px;
+    margin-right: 5px ;
+}

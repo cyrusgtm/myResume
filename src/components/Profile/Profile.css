@@ -1,0 +1,64 @@
+.profileContainerShadow {
+    background-color: white;
+    /* margin-top: 40px; */
+}
+
+.profile {
+    background-color: white;
+    border-radius:6px;
+    width:100%;
+    display: inline-block;
+}
+
+.profileName {
+    line-height:18px;
+    padding:20px;
+}
+
+.profileName .name {
+    text-transform: uppercase;
+    font-size:17px;
+    font-weight:bold;
+}
+
+.profileName .title {
+    font-size:13px;
+    color: #777;
+}
+
+.profileImage {
+    margin-top:-10px;
+
+}
+
+.profileImage img{
+    width:100%;
+}
+
+.timelineMargin {
+    margin-left: 21px;
+}
+
+.profileInformation {
+    top:0;
+    left:0;
+    margin: -40px 10px 30px;
+}
+
+.profileInformation .timeline .timelineContent {
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+.timelineItemText {
+    font-size: 13.5px !important;
+    margin-top: 2px !important;
+    font-weight: 400 !important;
+}
+
+.profileInformation .button {
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    margin-top: 10px;
+}
